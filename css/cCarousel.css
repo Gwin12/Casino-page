@@ -1,0 +1,141 @@
+  @media screen 
+  and (min-width: 1024px)
+  and (max-width: 1640px) {
+
+    .owl-carousel.custom-carousel,.owl-carousel.custom-carousel-2 {
+    max-width: 100% !important;
+}
+.video-banner__content {
+    /*bottom: 4% !important;
+    left: 13% !important;*/
+}
+.video-banner {
+    height: 336px !important;
+}
+.midBox {
+    width: 31%!important;
+    height: 486px !important;
+}
+.midBox a {
+    margin-top: 39px !important;
+}
+.aboutRow {
+    min-width:100% !important;
+}
+.buysection.web {
+    min-width: 80% !important;
+}
+.trending-games-section {
+    min-width: 80% !important;
+}
+
+
+}
+ @media screen and (min-width: 770px) {  
+  .item.main {
+    height: 187px !important;
+    position: relative;
+}
+ }
+  @media screen and (max-width: 680px) {
+    .owl-carousel {
+  width: 100% !important;
+}
+.item.main {
+    height: 155px !important;
+}
+.game-section-header {
+    /*margin-bottom: -26px !important;*/
+}
+
+
+}
+ .owl-carousel {
+    overflow: visible;
+    margin: 50px auto !important;
+}
+.owl-carousel .item {
+    background: linear-gradient(182deg, #0F0F0F, rgba(22, 31, 44, 0) 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 24px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.hSlide {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: auto;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) !important;
+    background-color: #1c1c1ced !important;
+    border: none !important;
+    font-size: 43px !important;
+    padding: 10px 15px !important;
+    cursor: pointer !important;
+    color: white !important;
+    border-radius: 0px;
+    width: 0px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-nav .owl-prev {
+  left: 0;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1; /* Ensure buttons are above the carousel items */
+}
+
+.owl-nav .owl-next {
+  right: 0;
+  transform: translateY(-50%) translateX(50%);
+  z-index: 1; /* Ensure buttons are above the carousel items */
+}
+
+.gameName {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(0deg, #0F0F0F, rgba(22, 31, 44, 0) 80%);
+    width: 100%;
+    text-align: center;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gameName p {
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: #7b808e;
+}
+.gameName h6 {
+    font-size: .6rem;
+    font-weight: 400 !important;
+}
+
+.game-box.provider {
+    position: relative;
+    height: 56.58px !important;
+    background: #0f0f0f;
+}
+
+img.gameImg.provider {
+    position: absolute;
+    top: 0;
+}
+
+.item.game.provider {
+    height: 50.58px;
+}
+

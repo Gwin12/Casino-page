@@ -1,0 +1,154 @@
+#casinoHome, #sportsHome {
+  display: none;
+}
+
+div#sportsHome {
+    z-index: 1;
+}
+video.bethehosue {
+    width: 100%;
+    margin: 23px auto;
+}
+
+/*#casinoHome, #sportsHome {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+*/
+.visibleSection {
+  visibility: visible;
+  position: relative;
+}
+
+
+a.sidebar__item.topM.top2.mWidth.head {
+  background: none !important;
+}
+.hidden {
+  display: none;
+}
+
+.section.section-1 {
+    background: none !important;
+}
+.selected {
+  background-color: #1c1c1c;
+  transition: background-color 0.3s ease;
+}
+
+.page__center {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.page__center.visible {
+  opacity: 1;
+}
+.sportsHome ~ .video-banner {
+  display: none;
+}
+
+.reactMenu2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.reactMenu2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1c;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-100%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.reactMenu2.selected::before {
+  opacity: 1;
+  transform: translateY(0);
+}
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  z-index: 9999;
+}
+
+.hidden {
+  display: none;
+}
+section.section.section-3.icon {
+    margin-top: -52px;
+    margin-bottom: -17px;
+}
+
+
+
+@media only screen and (min-width: 768px){
+div#sportsHome {
+    /* margin-top: -61px!important; */
+}
+.embed-container iframe.docEmbed {
+    width: 100%;
+    height: 710px !important;
+    border: none;
+    position:unset !important;
+}
+.embed-container {
+    position: relative;
+    height: 463px !important;
+    overflow: hidden;
+    max-width: 100%;
+    padding-top:0px !important;
+}
+}
+
+ @media only screen and (max-width: 767px){
+.item.sportsB {
+    height: 181px !important;
+}
+.icon-container {
+    width: 57px !important;
+    height: 68px !important;
+}
+section.section.section-1 {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.icon-slider {
+    justify-content: flex-start;
+}
+
+.sportsBanner img {
+    border-radius: 9px !important;
+}
+div#sportsHome {
+    /* margin-top: -61px!important; */
+}
+.video-banner.sportsHb {
+    margin-top: 65px !important;
+}
+.carousel-container.carousel-container-1 {
+    /*margin-bottom: -42px !important;*/
+}
+.sportsBanner {
+    margin: 20px auto !important;
+    margin-bottom: 1px !important;
+}
+.top2 {
+    background: none !important;
+}
+}

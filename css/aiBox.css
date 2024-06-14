@@ -1,0 +1,131 @@
+.aiContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 24px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.aiBox,.aiA {
+    display: flex;
+    position: relative;
+    height: 170px;
+    background: #111111;
+    border-radius: 12px;
+    transition: all 0.1s ease-in 0s;
+    text-decoration: none;
+}
+
+.aiBox:hover {
+    transform: scale(1.05);
+}
+
+
+.aiBox .aiImage {
+    width: 170px;
+    min-width: 170px;
+    height: 100%;
+    background: black;
+    object-fit: cover;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.aiBox .aiDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px 24px;
+    position: relative;
+}
+
+.aiBox .aiHeader {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    white-space: break-spaces;
+    font-weight: 600;
+    line-height: 1.6em;
+    color: white;
+    font-size: 18px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.aiBox .aiDetails-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #fffc;
+    -webkit-line-clamp: 2;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+/*.aiBox .aiTag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    background: #111111;
+    border: 1px solid red;
+    /* border-radius: 32px; 
+    font-size: 10px;
+    line-height: 16px;
+    color: white;
+    text-transform: capitalize;
+    white-space: nowrap;
+    width: fit-content;
+    position: absolute;
+    bottom: 20px;
+}*/
+
+.aiBox .aiTag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    background: #111111;
+    border: 1px solid transparent;
+    /* border-radius: 32px; */
+    font-size: 10px;
+    line-height: 16px;
+    color: white;
+    text-transform: capitalize;
+    white-space: nowrap;
+    width: fit-content;
+    position: absolute;
+    bottom: 20px;
+    border-image: url(../img/bgNew.png) 30 round;
+}
+
+@media (max-width: 768px) {
+  .aiContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .aiBox .aiImage{
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    margin-left: 16px !important;
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+}
+}
+
+.aiDetails-text:after {
+  content: '...';
+}
+.aiDetails-text:not(:last-child):after {
+  display: inline;
+}
+.aiDetails-text:not(:last-child):after {
+  display: none;
+}

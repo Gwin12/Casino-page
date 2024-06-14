@@ -1,0 +1,857 @@
+a {
+    color: #fff
+}
+
+a.btn.btn_purple.hSlider {
+    min-width: unset!important;
+    width: 117px;
+    max-height: 37px
+}
+
+a.main__btn.btn.btn_purple {
+    background-image: unset!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    color: #fff!important;
+    border: 1px solid #fff!important;
+    border-radius: 7px!important
+}
+
+#myVideo {
+    top: 49%!important;
+    left: 50%!important;
+    transform: translate(-50%,-50%)
+}
+
+@media only screen and (max-width: 767px) {
+    .mblV {
+        position:unset!important
+    }
+
+    .game-box {
+        height: 215px!important
+    }
+
+    .cLinkText.social {
+        width: 50%;
+        text-align: center;
+        font-size: .6rem
+    }
+
+    img.cLinksImg.social {
+        width: 24.34px
+    }
+
+    .owl-carousel .item {
+        height: auto!important
+    }
+
+    h2.anim-left.topT {
+        font-size: 2rem!important
+    }
+
+    h2#optionName {
+        font-size: 1rem!important
+    }
+
+    section.section.section-1 {
+        flex-direction: row!important;
+        align-content: center
+    }
+}
+
+.buysection {
+    width: 100%;
+    height: 75px;
+    background: linear-gradient(177deg,#0f0f0f,rgba(22,31,44,0) 80%);
+    margin: 54px auto;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative
+}
+
+@media only screen and (min-width: 768px) {
+    a.btn.btn_purple.hSlider {
+        font-size:.6rem!important
+    }
+
+    section h2,.overviewInfo h3 {
+        font-size: 2rem!important
+    }
+
+    .custom-carousel-2,.custom-carousel {
+        max-width: 100%!important
+    }
+
+    a.main__btn.btn.btn_purple.buyHome {
+        max-width: 14%;
+        padding: 0!important;
+        font-size: .6rem!important;
+        max-height: 41px
+    }
+
+    img#buy-Img {
+        display: inline-block;
+        width: 100%
+    }
+
+    a.buyHomeLink {
+        display: inline-block;
+        max-width: 9%
+    }
+
+    .casinoLinks {
+        width: 16%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+        height: 65px;
+        cursor: pointer
+    }
+
+    .casinoLinks.social {
+        background: #101010;
+        border-radius: 15px;
+        height: 53px;
+        width: 13%;
+        flex-direction: row-reverse;
+        justify-content: center
+    }
+
+    .cLinkText {
+        width: 65%;
+        text-align: center;
+        font-size: .9rem
+    }
+
+    img.cLinksImg {
+        max-width: 50%
+    }
+
+    .casinoLinks img {
+        width: 39.34px
+    }
+
+    .cLinkText.social {
+        width: 50%;
+        font-size: .8rem
+    }
+
+    img.cLinksImg.social {
+        width: 29.34px
+    }
+
+    .casinoLinks.first {
+        border-radius: 15px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .web {
+        position:absolute!important;
+        left: -9999px
+    }
+
+    a.btn.btn_purple.hSlider {
+        font-size: .5rem!important;
+        width: 106px;
+        max-height: 32px;
+        padding: 0
+    }
+
+    .casinoLinks.social {
+        background: #101010;
+        border-radius: 15px;
+        height: 53px;
+        width: 26%;
+        flex-direction: row-reverse;
+        justify-content: center
+    }
+
+    section.section.section-1.top img {
+        margin-left: -78px!important
+    }
+}
+
+section.section.section-1.top .section-title {
+    width: calc(50% - 44px)!important;
+    margin-left: 44px!important
+}
+
+.popular__list {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0
+}
+
+@media(min-width: 576px) {
+    .popular__item {
+        width:calc((100% - 30px)/2)
+    }
+}
+
+@media(min-width: 800px) {
+    .popular__item {
+        width:calc((100% - 40px)/3)
+    }
+
+    .main__details {
+        min-width: 100%
+    }
+
+    .trending-games-section {
+        position: relative;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .owl-carousel {
+        width: 100%
+    }
+}
+
+@media(min-width: 992px) {
+    .popular__item {
+        width:calc((100% - 50px)/4)
+    }
+}
+
+@media(min-width: 1200px) {
+    .popular__item {
+        width:calc((100% - 60px)/5)
+    }
+}
+
+.slick-slider {
+    cursor: grab;
+    cursor: -webkit-grab
+}
+
+.slick-slider:active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing
+}
+
+.popular__item {
+    display: block;
+    height: 300px;
+    width: 94%!important;
+    margin: 10px
+}
+
+.popular__preview {
+    height: 387px!important;
+    background-position-y: top
+}
+
+.main__title.h4 {
+    text-transform: unset!important
+}
+
+@media only screen and (max-width: 767px) {
+    .main__details {
+        max-width:100%!important
+    }
+	.ipbg {
+    margin-top: -13px !important;
+}
+
+    .ipSpin {
+        margin-top: -486px!important
+    }
+
+    .popupIp {
+    width: 81%!important;
+    top: 9%!important;
+    left: 10%!important;
+    height: 550px !important;
+}
+
+    .video-banner__content h3 {
+        font-size: 1rem
+    }
+
+    section h2,.overviewInfo h3 {
+        font-size: 1.4rem
+    }
+
+    .game-section-title span {
+        font-size: 18px!important
+    }
+
+    .video-banner__content {
+        bottom: -16%!important;
+        left: 4%!important;
+        display: flex;
+        align-items: center;
+        flex-direction: column!important
+    }
+
+    .video-banner__content .header__logo {
+        max-width: 62%!important
+    }
+
+    .video-banner {
+        height: 307px!important
+    }
+
+    .main__title.h4.homeTitle {
+        width: 330px!important;
+        font-size: 1.5rem
+    }
+
+    .live-bets-section {
+        width: 100%!important
+    }
+
+    .buysection.mblV {
+        display: flex
+    }
+
+    .midBox {
+        width: 97%!important
+    }
+
+    .popular__preview {
+        height: 271px!important
+    }
+
+    .main__item.newui {
+        min-height: 307px!important
+    }
+
+    .main__item.newui .main__details {
+        margin-bottom: 0!important
+    }
+
+    p.main_pera {
+        font-size: 12px!important
+    }
+
+    .main__title.h4 {
+        width: 300px!important
+    }
+
+    .main_trending .main__item:before {
+        background: 0 0
+    }
+}
+
+section.section.section-2 {
+    background: linear-gradient( 90deg,#111111,rgba(22,31,44,0) 80% )!important;
+    flex-direction: row
+}
+
+.section-title,.section-ctitle {
+    width: 50%
+}
+
+.section-title,.section-ctitle {
+    width: calc(50% - 20px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px
+}
+
+section h2,.overviewInfo h3 {
+    font-weight: 900;
+    padding: .4em 0;
+    margin: 0;
+    text-align: left
+}
+
+a.main__btn.btn.btn_purple.midButtn.abt {
+    max-width: 56%;
+    min-width: unset!important;
+    font-size: .6rem!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    color: #fff!important;
+    position: unset;
+    transform: unset;
+    margin: 0!important;
+    padding: 0!important
+}
+
+a.main__btn.btn.btn_purple.midButtn {
+    z-index: 11
+}
+
+a.main__btn.btn.btn_purple {
+    width: 45%
+}
+
+.imgsection {
+    width: 50%
+}
+
+section.section.section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.imgsection {
+    width: 50%!important
+}
+
+section.section.section-1 {
+    padding: 0
+}
+
+.aboutRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    width: 100%!important;
+    margin: 39px auto
+}
+
+.trending-games-section {
+    position: relative
+}
+
+.game-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px
+}
+
+.game-section-title {
+    display: flex;
+    align-items: center
+}
+
+.icon-image {
+    margin-right: 8px
+}
+
+.header-controls {
+    display: flex;
+    align-items: center
+}
+
+.see-all-btn {
+    background-color: #111;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: .8rem;
+    cursor: pointer;
+    border-radius: 22px;
+    margin-right: 8px
+}
+
+.trending-nav1 button,.trending-nav2 button,.trending-nav3 button,.trending-nav4 button,.trending-nav5 button,.trending-nav6 button,.profileStateNave button,.profileNftNave button {
+    background-color: #111;
+    border: none;
+    color: #fff;
+    font-size: .8rem;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 40px;
+    height: 40px
+}
+
+.trending-nav1 button i,.trending-nav2 button i,.trending-nav3 button i,.trending-nav4 button i,.trending-nav5 button i,.trending-nav6 button i,.profileStateNave button i,.profileNftNave button i {
+    font-size: 20px
+}
+
+.trending-nav1 button.owl-prev i,.trending-nav2 button.owl-prev i,.trending-nav3 button.owl-prev i,.trending-nav4 button.owl-prev i,.trending-nav5 button.owl-prev i,.trending-nav6 button.owl-prev i,.profileStateNave button,.profileNftNave button.owl-prev i {
+    margin-right: 3px
+}
+
+.trending-nav1 button.owl-next i,.trending-nav2 button.owl-next i,.trending-nav3 button.owl-next i,.trending-nav4 button.owl-next i,.trending-nav5 button.owl-next i,.trending-nav6 button.owl-next i,.profileStateNave button,.profileNftNave button.owl-next i {
+    margin-left: 3px
+}
+
+.icon-image {
+    margin-right: 8px;
+    width: 32px;
+    height: auto
+}
+
+.game-section-title span {
+    font-size: 16px;
+    font-weight: 400!important
+}
+
+@media(max-width: 599px) {
+    .see-all-btn {
+        display:none
+    }
+
+    .page__center.page__center_pt0 {
+        max-width: unset!important;
+        margin-top: 80px!important
+    }
+
+    .challengePar {
+        width: 100%!important
+    }
+
+    .pointTop {
+        color: gray!important;
+        font-weight: 900!important
+    }
+
+    .total.web {
+        color: gray!important
+    }
+
+    .challengePar img {
+        margin-right: 6px!important
+    }
+
+    .countryInfo {
+        width: 116px!important
+    }
+
+    .challengePar h6 {
+        font-size: 10px!important
+    }
+
+    .challengePar span {
+        font-size: 10px!important
+    }
+
+    .points {
+        width: 100px!important;
+        flex-direction: row!important;
+        height: 46px!important
+    }
+
+    .tourBottom {
+        flex-direction: column!important
+    }
+
+    .pointsWrapper {
+        display: flex!important;
+        justify-content: space-evenly!important;
+        width: 100%!important;
+        margin-top: 15px!important
+    }
+}
+
+.game-box {
+    background: 0 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    font-size: 24px
+}
+
+.trending-carousel .owl-nav .owl-prev {
+    display: none
+}
+
+.trending-carousel .owl-nav .owl-next {
+    display: none
+}
+
+.trending-carousel .game-box img,.trending-carousel2 .game-box img,.trending-carousel1 .game-box img,.trending-carousel4 .game-box img,.trending-carousel5 .game-box img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover
+}
+
+.live-bets-section {
+    width: 100%;
+    overflow-x: auto;
+    margin: 0 auto;
+    margin-bottom: 50px
+}
+
+.live-bets-section table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0
+}
+
+.live-bets-section th,.live-bets-section td {
+    text-align: left;
+    padding: 10px 0 25px 26px;
+    border: none;
+    position: relative
+}
+
+.live-bets-section th {
+    background-color: #000;
+    color: #fff
+}
+
+.live-bets-section td {
+    background: linear-gradient(178deg,#0F0F0F,rgba(22,31,44,0) 80%);
+    color: #fff;
+    border-bottom: 1px solid #000!important
+}
+
+.live-bets-section img.game-image,.live-bets-section img.player-image,.live-bets-section img.coin-image {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block
+}
+
+.live-bets-section th:first-child,.live-bets-section td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.live-bets-section th:last-child,.live-bets-section td:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.owl-carousel.trending-carousel,.owl-carousel.trending-carousel1,.owl-carousel.trending-carousel2,.owl-carousel.trending-carousel4,.owl-carousel.trending-carousel5 {
+    width: 100%!important;
+    margin-top: 0!important
+}
+
+.video-banner {
+    position: relative;
+    width: 100%;
+    height: 334px;
+    overflow: hidden
+}
+
+.video-banner.casinoHb {
+    background: url(../video/homeB2.webp) center center;
+    background-repeat: no-repeat!important;
+    background-size: cover!important
+}
+
+.video-banner.sportsHb {
+    background: url(../video/sportsBr2.gif) center center;
+    background-repeat: no-repeat!important;
+    background-size: cover!important
+}
+
+.video-banner__content .header__logo {
+    max-width: 31%
+}
+
+.video-banner__content {
+    position: absolute;
+    padding: 20px;
+    color: #fff;
+    z-index: 2;
+    top: 70%;
+    left: 50%!important;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%
+}
+
+.video-banner:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 70%;
+    background: linear-gradient(to top,rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0) 100%)
+}
+
+.owl-dots {
+    display: none
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1440px) {
+    .page__center.page__center_pt0 {
+        max-width:798px!important;
+        padding: 0!important;
+        margin-top: -30px
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .page__center.page__center_pt0 {
+        max-width:943px!important;
+        padding: 0!important;
+        margin-top: -30px
+    }
+}
+
+.tourWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 50px
+}
+
+.tourTop {
+    width: 100%;
+    background: linear-gradient(94deg,#232323,rgba(22,31,44,0) 80%);
+    padding: 20px 10px
+}
+
+.tourTopInfo {
+    display: flex;
+    justify-content: space-around
+}
+
+.tourBottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    background: linear-gradient(94deg,#111111,rgba(22,31,44,0) 80%);
+    align-items: center;
+    width: 100%
+}
+
+.challengePar h6 {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.challengePar span {
+    color: gray;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.challengePar {
+    width: 33%
+}
+
+.countryInfo {
+    display: flex;
+    justify-content: space-around;
+    width: 12%;
+    align-items: center
+}
+
+.points {
+    background: #161616;
+    border-radius: 10px;
+    width: 73px;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center
+}
+
+.pointTop {
+    color: gray;
+    font-weight: 900
+}
+
+.total.web {
+    color: gray
+}
+
+.challengePar img {
+    margin-right: 6px
+}
+
+.pointsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 56%
+}
+
+img#HomeBanner {
+    top: 49%!important;
+    left: 50%!important;
+    transform: translate(-50%,-50%);
+    height: 100%!important;
+    min-width: 100vw;
+    max-width: unset!important;
+    position: absolute
+}
+
+#casinoHome,#sportsHome {
+    position: relative
+}
+
+.overlyBloc {
+    position: absolute;
+    background: #00000078;
+    z-index: 9;
+    width: 100%;
+    height: 100%
+}
+
+.popupIp {
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    top: 21%;
+    left: 44%;
+    /* transform: translate(-50%, -50%); */
+    position: fixed;
+    z-index: 9;
+}
+
+.ipSpin {
+    width: 32%;
+    margin: 0 auto;
+    margin-top: -522px
+}
+
+.ipPopupt {
+    text-align: center;
+    margin-top: 17px
+}
+
+.ipPopupp {
+    text-align: center;
+    margin-top: 11px!important;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 800
+}
+
+.backButton {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #fff!important;
+    margin-top: 15px;
+    display: block;
+    width: 80%
+}
+
+.ipbg {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+    margin-top: -95px;
+}
